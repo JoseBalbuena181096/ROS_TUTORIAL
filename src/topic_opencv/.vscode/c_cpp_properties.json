@@ -1,0 +1,27 @@
+{
+    "configurations": [
+        {
+            "browse": {
+                "databaseFilename": "",
+                "limitSymbolsToIncludedHeaders": true
+            },
+            "includePath": [
+                "/home/jose/catkin_ws/devel/include",
+                "/opt/ros/melodic/include",
+                "/home/jose/catkin_ws/src/beginner_tutorial/include",
+                "/home/jose/catkin_ws/src/ros_basic_tutorials/include",
+                "/home/jose/catkin_ws/src/ros_essentials_cpp/include",
+                "/home/jose/catkin_ws/src/ros_essentials_cpp_user/include",
+                "/home/jose/catkin_ws/src/ros_service_assignment/include",
+                "/home/jose/catkin_ws/src/rosserial/rosserial_server/include",
+                "/home/jose/catkin_ws/src/rosserial/rosserial_test/include",
+                "/home/jose/catkin_ws/src/sensor_ultrasonic/include",
+                "/home/jose/catkin_ws/src/topic_opencv/include",
+                "/usr/include"
+            ],
+            "name": "Linux",
+            "intelliSenseMode": "gcc-x64"
+        }
+    ],
+    "version": 4
+}

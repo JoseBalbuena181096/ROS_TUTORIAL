@@ -1,0 +1,22 @@
+First open the file gedit .bashrc in the both machines
+#WORKSTATION CONFIGURATION
+############################################
+export ROS_IP=192.168.8.102
+export ROS_HOSTNAME=192.168.8.102
+export ROS_MASTER_URI=http://192.168.101::11311
+
+echo "ROS_HOSTNAME:"$ROS_HOSTNAME
+echo "ROS_IP:" $ROS_IP
+echo "ROS_MASTER_URI:" $ROS_MASTER_URI
+#############################################
+#ROBOT CONFIGURATION
+#The localhost IP address =IP address for the Master Node
+export ROS_MASTER_URI=http://localhost:11311
+#The IP address for the Master node 
+export ROS_HOSTNAME=192.168.8.101
+export ROS_IP=192.168.8.101
+
+echo "ROS_HOSTNAME: "$ROS_HOSTNAME
+echo "ROS_IP "$ROS_IP
+echo "ROS_MASTER_URI :"$ROS_MASTER_URI 
+#################################################

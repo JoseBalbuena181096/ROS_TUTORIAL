@@ -1,0 +1,8 @@
+prefix=/home/jose/catkin_ws/devel
+
+Name: ros_basic_tutorials
+Description: Description of ros_basic_tutorials
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/jose/catkin_ws/devel/lib 
+Requires: 
